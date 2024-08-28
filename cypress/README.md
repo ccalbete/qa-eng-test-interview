@@ -1,4 +1,4 @@
-# Cypress Test Suite for Dashboard Sales in VISTRO Application
+# Cypress Test Suite for Dashboard Sales in VRISTO Application
 
 ## Overview
 

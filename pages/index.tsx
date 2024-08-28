@@ -426,13 +426,13 @@ const Index = () => {
                         <div className="panel h-full xl:col-span-2">
                             <div className="mb-5 flex items-center justify-between dark:text-white-light">
                                 <h5 className="text-lg font-semibold">Revenue</h5>
-                                <div className="dropdown">
-                                    <Dropdown
+                                <div className="dropdown" data-cy="revenue-chart-three-dots-button" >
+                                    <Dropdown 
                                         offset={[0, 1]}
                                         placement={`${isRtl ? 'bottom-start' : 'bottom-end'}`}
-                                        button={<IconHorizontalDots className="text-black/70 dark:text-white/70 hover:!text-primary" />}
+                                        button ={<IconHorizontalDots className="text-black/70 dark:text-white/70 hover:!text-primary" />}
                                     >
-                                        <ul>
+                                        <ul data-cy="revenue-chart-three-dots-list">
                                             <li>
                                                 <button type="button">Weekly</button>
                                             </li>
@@ -449,7 +449,7 @@ const Index = () => {
                             <p className="text-lg dark:text-white-light/90">
                                 Total Profit <span className="ml-2 text-primary">$10,840</span>
                             </p>
-                            <div className="relative">
+                            <div className="relative" data-cy="revenue-chart-container">
                                 <div className="rounded-lg bg-white dark:bg-black">
                                     {isMounted ? (
                                         <ReactApexChart series={revenueChart.series} options={revenueChart.options} type="area" height={325} width={'100%'} />

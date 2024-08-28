@@ -19,6 +19,6 @@
             "@/*": ["./*"]
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/apps/todolist.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/apps/todolist.tsx", "cypress/e2e/dashboardSales/spec.cy.jsrization.cy.js", "cypress/support/commands.js"],
     "exclude": ["node_modules"]
 }

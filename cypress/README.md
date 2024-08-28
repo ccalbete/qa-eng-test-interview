@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains Cypress tests for verifying the functionality of the dashboard sales section of the VISTRO application. Current tests ensure that the revenue chart section renders correctly and that the dropdown menu operates as expected.
+This repository contains Cypress tests for verifying the functionality of the dashboard sales section of the VRISTO application. Current tests ensure that the revenue chart section renders correctly and that the dropdown menu operates as expected.
 
 ## Skills Summary
 
